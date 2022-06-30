@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -34,12 +34,12 @@ namespace Personal_Project
 
             else
             {
-				Console.WriteLine("Consult Your Doctor!");
+				Console.WriteLine("Consult Your Doctor! Your BMI is {0}", bmi);
             }
             
             Console.WriteLine("\nIf your BMI is less than 18.5, it falls within the underweight range.");
-			Console.WriteLine("\nIf your BMI is 18.5 to < 25, it falls within the healthy weight range.");
-            Console.WriteLine("\nIf your BMI is 25.0 to < 30, it falls within the overweight range.");
+			Console.WriteLine("\nIf your BMI is 18.5 to 25, it falls within the healthy weight range.");
+            Console.WriteLine("\nIf your BMI is 25.0 to 30, it falls within the overweight range.");
 			Console.WriteLine("\nIf your BMI is 30.0 or higher, it falls within the obesity range.");
 		}
 
